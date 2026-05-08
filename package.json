@@ -2,34 +2,34 @@
   "name": "nextjs-docker-starter",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "author": {
     "name": "Andrea Frittella",
     "email": "andrea.frittella@nc3.lu"
   },
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "format": "biome format --write src",
     "lint": "biome lint src",
-    "check": "biome check ./src",
     "typecheck": "tsc"
   },
   "dependencies": {
-    "next": "16.1.5",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
     "react-icons": "^5.6.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.5",
-    "@tailwindcss/postcss": "^4.2.1",
-    "@types/node": "^24.11.0",
+    "@biomejs/biome": "^2.4.14",
+    "@tailwindcss/postcss": "^4.2.4",
+    "@types/node": "^24.12.3",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "postcss": "^8.5.8",
-    "tailwindcss": "^4.2.1",
-    "typescript": "^5.9.3"
+    "postcss": "^8.5.14",
+    "tailwindcss": "^4.2.4",
+    "typescript": "^6.0.3"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

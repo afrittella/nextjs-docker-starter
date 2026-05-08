@@ -7,6 +7,6 @@ services:
       #platforms:
       #   - "linux/amd64"
       dockerfile: ./docker/production/Dockerfile
-    image: ghcr.io/afrittella/nextjs-docker-starter
+    image: ghcr.io/afrittella/nextjs-docker-starter-prod
     ports:
       - "3031:3000"
